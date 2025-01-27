@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import TestComponent from './components/TestComponent';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1 class="text-2xl font-bold text-blue-500 mb-4">Big project </h1>
-      
-    </div>
+    <TestComponent />
+    // <h1>My Custom Styled App</h1>
+
   );
-}
+};
 
 export default App;
